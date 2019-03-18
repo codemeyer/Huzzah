@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huzzah", "Huzzah\Huzzah.csproj", "{F0663C7C-24A5-44C9-88A1-ECB42CCA6F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Huzzah.Tests", "Huzzah.Tests\Huzzah.Tests.csproj", "{28E7650F-C203-4902-A5AC-E9E64536D7E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0663C7C-24A5-44C9-88A1-ECB42CCA6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0663C7C-24A5-44C9-88A1-ECB42CCA6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0663C7C-24A5-44C9-88A1-ECB42CCA6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0663C7C-24A5-44C9-88A1-ECB42CCA6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E7650F-C203-4902-A5AC-E9E64536D7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E7650F-C203-4902-A5AC-E9E64536D7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E7650F-C203-4902-A5AC-E9E64536D7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E7650F-C203-4902-A5AC-E9E64536D7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B086198A-AE78-4194-BB8A-14A5EEF2366B}
+	EndGlobalSection
+EndGlobal
