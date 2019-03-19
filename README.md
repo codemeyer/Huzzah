@@ -1,8 +1,8 @@
 # Huzzah
 
 Huzzah is a single C# file that you drop into your .NET Console Application to implement a basic form
-of command line argument parsing, including support for
-long and short switches, verb commands, defaults and required values.
+of command line argument parsing. It includes support for
+long and short switches, verb commands, default values and required values.
 
 
 ## Usage
@@ -11,7 +11,7 @@ In its most basic form, Huzzah maps all values that are passed as command line a
 
 For example, consider this command line call:
 
-    myapp.exe --argument this --foo bar --thegreatest 99
+    myapp.exe --argument this --foo bar --thegreatone 99
 
 And a C# class representing the possible command line arguments, defined thus:
 
@@ -19,10 +19,10 @@ And a C# class representing the possible command line arguments, defined thus:
     {
         public string Argument { get; set; }
         public string Foo { get; set; }
-        public int TheGreatest { get; set; }
+        public int TheGreatOne { get; set; }
     }
 
-Finally, having placed the CommandLineArgumentParser.cs file in your project, with a main method defined like this:
+Finally, having placed the [CommandLineArgumentParser.cs](https://github.com/codemeyer/Huzzah/blob/master/Source/Huzzah/CommandLineArgumentParser.cs) file in your project, with a main method defined like this:
 
     static void Main(string[] args)
     {
@@ -42,7 +42,7 @@ When running, this will output the following to the console, since Huzzah will h
 
 ## Installation
 
-Grab the CommandLineArgumentParser.cs and place it somewhere in your Console Application.
+Grab the [CommandLineArgumentParser.cs](https://github.com/codemeyer/Huzzah/blob/master/Source/Huzzah/CommandLineArgumentParser.cs) file and place it somewhere in your Console Application.
 Change the namespace (and anything else) if you want to.
 
 
