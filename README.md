@@ -30,7 +30,7 @@ Finally, having placed the [CommandLineArgumentParser.cs](https://github.com/cod
 
         Console.WriteLine(options.Argument);
         Console.WriteLine(options.Foo);
-        Console.WriteLine(options.TheGreatest);
+        Console.WriteLine(options.TheGreatOne);
     }
 
 When running, this will output the following to the console, since Huzzah will have mapped the properties it could find:
